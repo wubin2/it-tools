@@ -6,7 +6,7 @@ jobs:
   sync:
     runs-on: ubuntu-latest
     steps:
-      - uses: wubin2/it-tools@master
+      - uses: wubin2/it-tools@main
       - name: Sync with upstream
         uses: CorentinTh/it-tools@master
         with:
