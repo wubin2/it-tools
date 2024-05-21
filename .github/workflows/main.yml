@@ -8,7 +8,7 @@ jobs:
     steps:
       - uses: wubin2/it-tools@main
       - name: Sync with upstream
-        uses: CorentinTh/it-tools@master
+        uses: CorentinTh/it-tools@main
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: master
